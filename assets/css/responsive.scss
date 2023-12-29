@@ -1,0 +1,35 @@
+@import "variables";
+.container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+    .row {
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: auto;
+    }
+    @for $col from 1 through 12 {
+        .col-#{$col} {
+            width: calc(100% / 12 * $col);
+        }
+    }
+}
+
+@each $size, $width in $screen {
+    @media screen and (min-width: $width) {
+        .container {
+            max-width: map-get($map: $container, $key: $size);
+        }
+        @for $col from 1 through 12 {
+            .col-#{$size}-#{$col} {
+                width: calc(100% / 12 * $col);
+            }
+        }
+    }
+}
