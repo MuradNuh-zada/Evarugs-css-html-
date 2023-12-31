@@ -42,6 +42,43 @@ a {
   justify-content: end;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+.top-header i:hover {
+  color: rgba(46, 49, 146, 0.7);
+}
+
+.bottom-header ul li:hover a {
+  background-color: rgba(212, 20, 90, 0.7);
+  color: #fff;
+}
+
+#order .order-desc button:hover {
+  background: linear-gradient(95deg, #2e3192 2.23%, #b90160 99.51%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#eva .eva-card:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.828);
+}
+#eva .eva-card:hover .eva-card-desc h3 {
+  color: rgba(184, 0, 95, 0.828);
+}
+#eva .eva-card:hover img {
+  opacity: 0.6;
+}
+
 #client .client-cards .client-card:hover {
   box-shadow: 0px 0px 30px 0px rgba(126, 30, 252, 0.415);
 }
@@ -64,56 +101,18 @@ a {
   cursor: pointer;
 }
 
-#eva .eva-card:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.828);
-}
-#eva .eva-card:hover .eva-card-desc h3 {
-  color: rgba(184, 0, 95, 0.828);
-}
-#eva .eva-card:hover img {
-  opacity: 0.6;
-}
-
-#order .order-desc button:hover {
-  background: linear-gradient(95deg, #2e3192 2.23%, #b90160 99.51%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-
-.bottom-header ul li:hover {
-  border: 1px solid rgba(212, 20, 90, 0.7);
-  padding: 0 5px;
-}
-
-.top-header i:hover {
-  color: rgba(46, 49, 146, 0.7);
-}
-
 .top-header {
   background: linear-gradient(270deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
   height: 90px;
   color: #fff;
 }
 .top-header i {
-  font-size: 30px;
   color: #fff;
   transition: all 0.4s ease-in;
   -webkit-transition: all 0.4s ease-in;
   -moz-transition: all 0.4s ease-in;
   -ms-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
-}
-.top-header p {
-  font-size: 15px;
-  padding: 0 3px 0 25px;
 }
 
 .bottom-header {
@@ -125,53 +124,37 @@ a {
   height: 59.971px;
 }
 .bottom-header h2 {
-  font-size: 36px;
   font-style: italic;
   font-weight: 900;
-  margin-left: 15px;
-}
-.bottom-header ul {
-  margin-right: 60px;
 }
 .bottom-header ul li {
-  margin-left: 25px;
   font-size: 18px;
   font-weight: 300;
+}
+.bottom-header ul li a {
+  color: #737373;
+  padding: 2px 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
   transition: all 0.4s ease-in;
   -webkit-transition: all 0.4s ease-in;
   -moz-transition: all 0.4s ease-in;
   -ms-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
 }
-.bottom-header ul li a {
-  color: #737373;
-}
 
-#order {
-  background-image: url(/assets/images/block.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 800px;
-}
-#order .order-desc {
-  margin-top: -7rem;
-}
-#order .order-desc img {
-  width: 533px;
-  height: 100%;
-}
 #order .order-desc h1 {
-  font-size: 50px;
   font-weight: 900;
 }
 #order .order-desc p {
-  font-size: 24px;
   font-weight: 300;
   margin: 15px 0;
 }
 #order .order-desc button {
   color: #fff;
-  font-size: 20px;
   font-weight: 900;
   border: none;
   border-radius: 7px;
@@ -187,11 +170,10 @@ a {
 
 #eva {
   position: relative;
-  height: 800px;
+  margin-bottom: 2rem;
 }
 #eva h2 {
   text-align: center;
-  font-size: 50px;
   font-weight: 400;
 }
 #eva h2 span {
@@ -207,8 +189,6 @@ a {
   -ms-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
   cursor: pointer;
-  margin-top: 6rem;
-  width: 390px;
   background-color: #fff;
   box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.2);
   border-radius: 7px;
@@ -218,7 +198,6 @@ a {
   -o-border-radius: 7px;
 }
 #eva .eva-card img {
-  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 7px 7px 0 0;
@@ -232,9 +211,7 @@ a {
   padding: 20px 65px 30px 20px;
 }
 #eva .eva-card .eva-card-desc h3 {
-  font-size: 36px;
   font-weight: 700;
-  margin-bottom: 15px;
   transition: all 0.4s ease-in;
   -webkit-transition: all 0.4s ease-in;
   -moz-transition: all 0.4s ease-in;
@@ -243,13 +220,11 @@ a {
 }
 #eva .eva-card .eva-card-desc p {
   color: #767676;
-  font-size: 14px;
   font-weight: 300;
 }
 #eva .back-img {
   position: absolute;
   z-index: -1;
-  top: 10rem;
 }
 
 #client {
@@ -259,17 +234,8 @@ a {
   height: 357px;
   overflow: hidden;
 }
-#client .client-cards .client-card1,
-#client .client-cards .client-card3 {
-  opacity: 0.5;
-}
-#client .client-cards .client-card1 {
-  margin: 0 3rem 0 -10.2rem;
-}
-#client .client-cards .client-card3 {
-  margin: 0 -14.5rem 0 3rem;
-}
 #client .client-cards .client-card {
+  width: 536px;
   height: 187px;
   text-align: center;
   border-radius: 9px;
@@ -291,9 +257,8 @@ a {
   -o-transition: all 0.7s ease-in;
 }
 #client .client-cards .client-card .comment p {
-  font-size: 18px;
   font-weight: 300;
-  margin: 15px 0;
+  margin: 12px 0;
   padding: 0 47px;
 }
 #client .client-cards .client-card .comment .line-div .line {
@@ -314,9 +279,7 @@ a {
 }
 
 .contact {
-  background-image: url(/assets/images/footerimg.png);
   background-repeat: no-repeat;
-  height: 364px;
   margin-top: 2rem;
 }
 .contact h4 {
@@ -326,14 +289,41 @@ a {
 .contact img {
   width: 33px;
   height: 33px;
+  margin: 10px 0;
 }
 .contact p,
 .contact span {
   font-size: 14px;
   font-weight: 300;
   margin: 10px 0;
-  padding-right: 14rem;
 }
-.contact img {
-  margin: 10px 0;
+
+.form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.form .form-box {
+  box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+  border-radius: 15px;
+}
+.form .form-box input {
+  color: #989898;
+  border: 1px solid #a1a1a1;
+  font-weight: 300;
+}
+.form .form-box .form-name-email input {
+  border-radius: 9px;
+}
+.form .form-box .form-message input {
+  border-radius: 9px;
+}
+.form .form-box .form-btn input {
+  border: none;
+  border-radius: 9px;
+  background: linear-gradient(96deg, #d4145a -21.03%, #3d5bf5 103.56%);
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

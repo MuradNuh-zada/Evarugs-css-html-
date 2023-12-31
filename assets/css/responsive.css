@@ -254,4 +254,579 @@
   .col-xxl-12 {
     width: 100%;
   }
+}
+@media screen and (max-width: 576px) {
+  .top-header i {
+    font-size: 15px;
+  }
+  .top-header p {
+    font-size: 7px;
+    padding: 0 1px 0 10px;
+  }
+  .bottom-header img {
+    width: 40px;
+    height: 25px;
+  }
+  .bottom-header h2 {
+    font-size: 18px;
+  }
+  .bottom-header ul {
+    margin-right: 10px;
+  }
+  .bottom-header ul li {
+    margin-left: 8px;
+    font-size: 10px;
+  }
+  #order {
+    background-image: url(/assets/images/index-page-images/responsiveimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+  }
+  #order .order-desc {
+    margin-top: -8rem;
+  }
+  #order .order-desc img {
+    display: none;
+  }
+  #order .order-desc h1 {
+    font-size: 30px;
+    padding: 0 40px;
+  }
+  #order .order-desc p {
+    font-size: 20px;
+  }
+  #order .order-desc button {
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+  #eva {
+    height: auto;
+    margin: -4rem 0 2rem;
+  }
+  #eva h2 {
+    font-size: 20px;
+  }
+  #eva .eva-card {
+    margin-top: 2rem;
+    width: 264px;
+  }
+  #eva .eva-card img {
+    width: 100%;
+  }
+  #eva .eva-card .eva-card-desc h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  #eva .eva-card .eva-card-desc p {
+    font-size: 9px;
+  }
+  #eva .back-img {
+    display: none;
+  }
+  #client .client-cards .client-card2,
+  #client .client-cards .client-card3 {
+    display: none;
+  }
+  #client .client-cards .client-card1 {
+    opacity: 1;
+    width: 267px;
+  }
+  #client .client-cards .client-card .comment p {
+    font-size: 12px;
+  }
+  .contact {
+    background-image: none;
+    text-align: center;
+    height: 317px;
+  }
+  .contact .contactbox1 {
+    order: 1;
+  }
+  .contact .contactbox3 {
+    order: 2;
+  }
+  .contact .contact3 p {
+    padding: 0 4.5rem;
+  }
+  .form {
+    height: 800px;
+  }
+  .form .form-box {
+    width: 267px;
+    height: 298px;
+    background-image: none;
+  }
+  .form .form-box .form-header h1 {
+    font-size: 15px;
+    margin: 30px 0 0;
+  }
+  .form .form-box input {
+    text-align: center;
+  }
+  .form .form-box input::-moz-placeholder {
+    font-size: 10px;
+    white-space: wrap;
+    opacity: 0.5;
+  }
+  .form .form-box input::placeholder {
+    font-size: 10px;
+    white-space: wrap;
+    opacity: 0.5;
+  }
+  .form .form-box .form-name-email input {
+    width: 212px;
+    height: 20px;
+    margin-top: 19px;
+    padding: 10px;
+  }
+  .form .form-box .form-message input {
+    width: 212px;
+    height: 95px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .form .form-box .form-btn input {
+    font-size: 9px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .top-header i {
+    font-size: 17px;
+  }
+  .top-header p {
+    font-size: 9px;
+    padding: 0 1px 0 15px;
+  }
+  .bottom-header img {
+    width: 60px;
+    height: 35px;
+  }
+  .bottom-header h2 {
+    font-size: 22px;
+    margin-left: 11px;
+  }
+  .bottom-header ul {
+    margin-right: 10px;
+  }
+  .bottom-header ul li {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  #order {
+    background-image: url(/assets/images/index-page-images/responsiveimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 600px;
+  }
+  #order .order-desc {
+    margin-top: -5rem;
+  }
+  #order .order-desc img {
+    width: 368px;
+    height: 100%;
+  }
+  #order .order-desc h1 {
+    font-size: 37px;
+  }
+  #order .order-desc p {
+    font-size: 20px;
+  }
+  #order .order-desc button {
+    font-size: 15px;
+  }
+  #eva {
+    height: auto;
+  }
+  #eva h2 {
+    font-size: 30px;
+  }
+  #eva .eva-card {
+    margin-top: 2rem;
+    width: 500px;
+  }
+  #eva .eva-card img {
+    width: 100%;
+    height: 189.976px;
+  }
+  #eva .eva-card .eva-card-desc h3 {
+    font-size: 31px;
+    margin-bottom: 11px;
+  }
+  #eva .eva-card .eva-card-desc p {
+    font-size: 10px;
+  }
+  #eva .back-img {
+    display: none;
+  }
+  #client .client-cards .client-card2,
+  #client .client-cards .client-card3 {
+    display: none;
+  }
+  #client .client-cards .client-card .comment p {
+    font-size: 18px;
+  }
+  .contact {
+    background-image: url(/assets/images/index-page-images/responsiveimg2.png);
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+  }
+  .contact .contact3 p {
+    padding: 0 20px 0 0;
+  }
+  .form {
+    height: 800px;
+  }
+  .form .form-box {
+    width: 267px;
+    height: 298px;
+    background-image: none;
+  }
+  .form .form-box .form-header h1 {
+    font-size: 15px;
+    margin: 30px 0 0;
+  }
+  .form .form-box input::-moz-placeholder {
+    font-size: 10px;
+    white-space: wrap;
+    opacity: 0.5;
+  }
+  .form .form-box input::placeholder {
+    font-size: 10px;
+    white-space: wrap;
+    opacity: 0.5;
+  }
+  .form .form-box .form-name-email input {
+    width: 212px;
+    height: 20px;
+    margin-top: 19px;
+    padding: 10px;
+  }
+  .form .form-box .form-message input {
+    width: 212px;
+    height: 95px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .form .form-box .form-btn input {
+    font-size: 9px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .top-header i {
+    font-size: 20px;
+  }
+  .top-header p {
+    font-size: 11px;
+  }
+  .bottom-header img {
+    width: 70px;
+    height: 40px;
+  }
+  .bottom-header h2 {
+    font-size: 26px;
+    margin-left: 12px;
+  }
+  .bottom-header ul li {
+    margin-left: 18px;
+    font-size: 13px;
+  }
+  #order {
+    background-image: url(/assets/images/index-page-images/responsiveimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 650px;
+  }
+  #order .order-desc img {
+    width: 400px;
+  }
+  #order .order-desc h1 {
+    font-size: 40px;
+  }
+  #order .order-desc p {
+    font-size: 24px;
+  }
+  #order .order-desc button {
+    font-size: 20px;
+  }
+  #eva h2 {
+    font-size: 35px;
+  }
+  #eva .eva-card {
+    width: 594px;
+  }
+  #eva .eva-card .eva-card-desc h3 {
+    font-size: 33px;
+    margin-bottom: 12px;
+  }
+  #eva .eva-card .eva-card-desc p {
+    font-size: 11px;
+  }
+  #eva .back-img {
+    display: none;
+  }
+  .form .form-box {
+    width: 635px;
+    height: 401px;
+    background-image: url(/assets/images/form-page-images/tabletbackimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .form .form-box .form-header h1 {
+    font-size: 24px;
+  }
+  .form .form-box input::-moz-placeholder {
+    font-size: 11px;
+  }
+  .form .form-box input::placeholder {
+    font-size: 11px;
+  }
+  .form .form-box .form-name-email input {
+    width: 432px;
+    height: 41px;
+  }
+  .form .form-box .form-message input {
+    width: 432px;
+    margin-top: 23px;
+  }
+  .form .form-box .form-btn input {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 7px 16px;
+    border-radius: 9px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .top-header i {
+    font-size: 24px;
+  }
+  .top-header p {
+    font-size: 13px;
+    padding: 0 3px 0 25px;
+  }
+  .bottom-header img {
+    width: 85px;
+    height: 49px;
+  }
+  .bottom-header h2 {
+    font-size: 30px;
+    margin-left: 13px;
+  }
+  .bottom-header ul li {
+    margin-left: 22px;
+    font-size: 14px;
+  }
+  #order {
+    background-image: url(/assets/images/index-page-images/block.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 700px;
+  }
+  #order .order-desc {
+    margin-top: -7rem;
+  }
+  #order .order-desc img {
+    width: 533px;
+  }
+  #order .order-desc h1 {
+    font-size: 44px;
+  }
+  #eva h2 {
+    font-size: 40px;
+  }
+  #eva .eva-card {
+    width: 400px;
+  }
+  #eva .eva-card .eva-card-desc h3 {
+    font-size: 34px;
+    margin-bottom: 13px;
+  }
+  #eva .eva-card .eva-card-desc p {
+    font-size: 12px;
+  }
+  #eva .back-img {
+    display: block;
+    top: 10rem;
+  }
+  #client .client-cards .client-card1,
+  #client .client-cards .client-card3 {
+    opacity: 0.5;
+  }
+  #client .client-cards .client-card2,
+  #client .client-cards .client-card3 {
+    display: block;
+  }
+  #client .client-cards .client-card2 {
+    margin: 0 2rem;
+  }
+  #client .client-cards .client-card .comment p {
+    font-size: 13px;
+  }
+  .contact {
+    background-image: url(/assets/images/index-page-images/footerimg.png);
+    height: 364px;
+  }
+  .form .form-box {
+    background-image: url(/assets/images/form-page-images/tabletbackimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .form .form-box input::-moz-placeholder {
+    font-size: 12px;
+  }
+  .form .form-box input::placeholder {
+    font-size: 12px;
+  }
+  .form .form-box .form-name-email input {
+    margin-top: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .top-header i {
+    font-size: 27px;
+  }
+  .top-header p {
+    font-size: 14px;
+  }
+  .bottom-header img {
+    width: 94px;
+    height: 55px;
+  }
+  .bottom-header h2 {
+    font-size: 34px;
+    margin-left: 14px;
+  }
+  .bottom-header ul li {
+    margin-left: 24px;
+    font-size: 16px;
+  }
+  #order {
+    background-image: url(/assets/images/index-page-images/block.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 750px;
+  }
+  #order .order-desc h1 {
+    font-size: 47px;
+  }
+  #eva {
+    height: 800px;
+  }
+  #eva h2 {
+    font-size: 45px;
+  }
+  #eva .eva-card {
+    width: 300px;
+  }
+  #eva .eva-card .eva-card-desc h3 {
+    font-size: 35px;
+    margin-bottom: 14px;
+  }
+  #eva .eva-card .eva-card-desc p {
+    font-size: 13px;
+  }
+  #eva .back-img {
+    display: block;
+    top: 10rem;
+  }
+  #client .client-cards .client-card .comment p {
+    font-size: 16px;
+  }
+  .form .form-box {
+    background-image: url(/assets/images/form-page-images/form-back.jpg);
+    width: 1180px;
+    height: 392px;
+  }
+  .form .form-box .form-header h1 {
+    margin: 42px 0 46px;
+  }
+  .form .form-box input::-moz-placeholder {
+    font-size: 13px;
+  }
+  .form .form-box input::placeholder {
+    font-size: 13px;
+  }
+  .form .form-box .form-name-email input {
+    width: 362px;
+    height: 50px;
+  }
+  .form .form-box .form-message input {
+    width: 728px;
+    height: 81px;
+    margin-top: 20px;
+  }
+  .form .form-box .form-btn input {
+    width: 169px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .top-header i {
+    font-size: 30px;
+  }
+  .top-header p {
+    font-size: 15px;
+  }
+  .bottom-header img {
+    width: 100px;
+    height: 60px;
+  }
+  .bottom-header h2 {
+    font-size: 36px;
+    margin-left: 15px;
+  }
+  .bottom-header ul li {
+    margin-left: 25px;
+    font-size: 18px;
+  }
+  #order {
+    background-image: url(/assets/images/index-page-images/block.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 800px;
+  }
+  #order .order-desc h1 {
+    font-size: 50px;
+  }
+  #eva h2 {
+    font-size: 50px;
+  }
+  #eva .eva-card {
+    width: 390px;
+  }
+  #eva .eva-card .eva-card-desc h3 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  #eva .eva-card .eva-card-desc p {
+    font-size: 14px;
+  }
+  #eva .back-img {
+    display: block;
+    top: 10rem;
+  }
+  #client .client-cards .client-card .comment p {
+    font-size: 18px;
+  }
+  .form .form-box input::-moz-placeholder {
+    font-size: 14px;
+  }
+  .form .form-box input::placeholder {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=responsive.css.map */

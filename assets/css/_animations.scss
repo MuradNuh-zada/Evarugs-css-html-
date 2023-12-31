@@ -1,3 +1,48 @@
+.top-header {
+    i:hover {
+        color: rgba(46, 49, 146, 0.7);
+    }
+}
+.bottom-header {
+    ul {
+        li:hover {
+            a {
+                background-color: rgba(212, 20, 90, 0.7);
+                color: #fff;
+            }
+        }
+    }
+}
+#order {
+    .order-desc {
+        button:hover {
+            background: linear-gradient(95deg, #2e3192 2.23%, #b90160 99.51%);
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+    }
+}
+#eva {
+    .eva-card:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.828);
+        .eva-card-desc {
+            h3 {
+                color: rgba(184, 0, 95, 0.828);
+            }
+        }
+        img {
+            opacity: 0.6;
+        }
+    }
+}
 #client {
     .client-cards {
         .client-card:hover {
@@ -23,48 +68,5 @@
                 }
             }
         }
-    }
-}
-#eva {
-    .eva-card:hover {
-        transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.828);
-        .eva-card-desc {
-            h3 {
-                color: rgba(184, 0, 95, 0.828);
-            }
-        }
-        img {
-            opacity: 0.6;
-        }
-    }
-}
-#order {
-    .order-desc {
-        button:hover {
-            background: linear-gradient(95deg, #2e3192 2.23%, #b90160 99.51%);
-            transform: scale(1.1);
-            -webkit-transform: scale(1.1);
-            -moz-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            -o-transform: scale(1.1);
-        }
-    }
-}
-.bottom-header {
-    ul {
-        li:hover {
-            border: 1px solid rgba(212, 20, 90, 0.7);
-            padding: 0 5px;
-        }
-    }
-}
-.top-header {
-    i:hover {
-        color: rgba(46, 49, 146, 0.7);
     }
 }

@@ -4,38 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link -->
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <!-- Icons Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS Links -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
+
     <title>Document</title>
 </head>
 
 <body>
+    <!-- Header top start -->
     <header class="top-header d-flex align-items-center ">
         <div class="container">
             <div class="row ">
-                <div class="col-xxl-5 d-flex align-items-center">
-                    <a href="#!">
+                <div class="col-6 col-sm-6 col-md-6 col-xxl-6 d-flex align-items-center">
+                    <a href="tel:+375 29 292-29-29 tel:+375 33 333-33-33">
                         <i class="fa-solid fa-phone"></i>
                     </a>
                     <p>+375 29 292-29-29 (VEL)</p>
                     <p>+375 33 333-33-33 (МТС)</p>
                 </div>
-                <div class="col-xxl-5 d-flex align-items-center">
+                <div class="col-2 col-sm-2 col-md-2 col-xxl-2 d-flex align-items-center">
                     <a href="#!">
                         <i class="fa-solid fa-location-dot"></i>
                     </a>
                     <p>ваш город</p>
                 </div>
-                <div class="col-xxl-2 d-flex align-items-center 
+                <div class="col-4 col-sm-4 col-md-4 col-xxl-4 d-flex align-items-center 
                 justify-content-end">
-                    <a href="#!">
-                        <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class=" fa-brands fa-instagram"></i>
                     </a>
                     <p class="ins-text">посетите нашу
                         страницу</p>
@@ -43,24 +49,35 @@
             </div>
         </div>
     </header>
+    <!-- Header top end -->
+
+    <!-- Header bottom start -->
     <header class="bottom-header d-flex align-items-center">
         <div class="container">
             <div class="row ">
-                <div class="col-xxl-6 d-flex align-items-center">
-                    <img src="/assets/images/Vector.jpg" alt="">
+                <!-- Logo start -->
+                <div class="col-6 col-sm-5 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                    <img src="/assets/images/index-page-images/Vector.jpg" alt="">
                     <h2>EVARUGS</h2>
                 </div>
-                <div class="col-xxl-6 d-flex justify-content-end">
+                <!-- Logo end -->
+
+                <!-- Link start -->
+                <div class="col-6 col-sm-7 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-end">
                     <ul class="d-flex align-items-center">
                         <li><a href="#client">отзывы</a></li>
                         <li><a href="#eva">что это?</a></li>
                         <li><a href="#contact">контакты</a></li>
                     </ul>
                 </div>
+                <!-- Link end -->
             </div>
         </div>
     </header>
+    <!-- Header bottom end -->
+
     <main>
+        <!-- Order start -->
         <section id="order">
             <div class="container">
                 <div class="row align-items-center order-desc">
@@ -68,25 +85,34 @@
                         <h1>Инновационные коврики
                             для автомобиля</h1>
                         <p>в вашем городе</p>
-                        <button type="button">ЗАКАЗАТЬ</button>
+                        <a href="/pages/form.html" target="_blank">
+                            <button type="button">ЗАКАЗАТЬ</button>
+                        </a>
                     </div>
                     <div class="col-xxl-6 d-flex justify-content-center">
-                        <img src="/assets/images/orderimg.png" alt="">
+                        <img src="/assets/images/index-page-images/orderimg.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Order end -->
+
+        <!-- Eva start -->
         <section id="eva">
             <div class="container">
-                <div class="row">
-                    <div class="col-xxl-12">
+                <!-- EVA head start -->
+                <div class="row ">
+                    <div class="col-12 col-sm-12 col-md-12 col-xxl-12">
                         <h2>Что такое <span>EVA</span> коврики?</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xxl-4">
+                <!-- EVA head end -->
+                <!-- Cards start -->
+                <div class="row flex-wrap">
+                    <!-- Card-1 start -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 justify-content-center d-flex">
                         <div class="eva-card">
-                            <img src="/assets/images/evacardimg1.jpg" alt="">
+                            <img src="/assets/images/index-page-images/evacardimg1.jpg" alt="">
                             <div class="eva-card-desc">
                                 <h3>МАТЕРИАЛ</h3>
                                 <p>Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками
@@ -95,9 +121,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4">
+                    <!-- Card-1 end -->
+
+                    <!-- Card-2 start -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 justify-content-center d-flex">
                         <div class="eva-card">
-                            <img src="/assets/images/evacardimg2.jpg" alt="">
+                            <img src="/assets/images/index-page-images/evacardimg2.jpg" alt="">
                             <div class="eva-card-desc">
                                 <h3>ОТЛИЧИЯ</h3>
                                 <p>Резиновые коврики загибаются и лезут на педали. EVA коврики такого не допустят!
@@ -106,11 +135,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4">
-                        <div class="eva-card">
-                            <img src="/assets/images/evacardimg3.jpg" alt="">
-                            <div class="eva-card-desc">
+                    <!-- Card-2 end -->
 
+                    <!-- Card-3 start -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 justify-content-center d-flex">
+                        <div class="eva-card">
+                            <img src="/assets/images/index-page-images/evacardimg3.jpg" alt="">
+                            <div class="eva-card-desc">
                                 <h3>РАСЦВЕТКА</h3>
                                 <p>Автомобильные коврики EVA можно заказать и в индивидуальных размерах и в разных
                                     цветах, которые комбинируется на выбор покупателя с такими же цветами окантовочной
@@ -118,16 +149,25 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Card-3 end -->
                 </div>
+                <!-- Cards end -->
             </div>
+            <!-- Background image start -->
             <div class="back-img">
-                <img src="/assets/images/evaimg.png" alt="">
+                <img src="/assets/images/index-page-images/evaimg.png" alt="">
             </div>
+            <!-- Background image end -->
         </section>
+        <!-- Eva end -->
+
+        <!-- Client start -->
         <section id="client">
+            <!-- Client cards start -->
             <div class="d-flex justify-content-center client-cards align-items-center">
+                <!-- Client card 1 start -->
                 <div class="client-card1 client-card">
-                    <img src="/assets/images/otz1.png" alt="">
+                    <img src="/assets/images/index-page-images/otz1.png" alt="">
                     <div class="comment">
                         <p>Коврики супер!!! Качество на высшем уровне!!!
                             Удачи и побольше заказов вам!!! Большое спасибо!</p>
@@ -137,8 +177,11 @@
                         <h5>Константин В.</h5>
                     </div>
                 </div>
+                <!-- Client card 1 end -->
+
+                <!-- Client card 2 start -->
                 <div class="client-card2 client-card">
-                    <img src="/assets/images/otz2.jpg" alt="">
+                    <img src="/assets/images/index-page-images/otz2.jpg" alt="">
                     <div class="comment">
                         <p>Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень
                             понравилось. Буду советовать только вас.</p>
@@ -148,8 +191,11 @@
                         <h5>Вера К.</h5>
                     </div>
                 </div>
+                <!-- Client card 2 end -->
+
+                <!-- Client card 3 start -->
                 <div class="client-card3 client-card">
-                    <img src="/assets/images/otz3.jpg" alt="">
+                    <img src="/assets/images/index-page-images/otz3.jpg" alt="">
                     <div class="comment">
                         <p>Спасибо, все приехало, поставил. Результатом доволен, в машине супер! Заказывал на Ниссан.
                         </p>
@@ -159,35 +205,52 @@
                         <h5>Николай П.</h5>
                     </div>
                 </div>
+                <!-- Client card 3 end -->
+
             </div>
+            <!-- Client cards end -->
+
         </section>
+        <!-- Client end -->
     </main>
+
+    <!-- Footer start -->
     <footer id="contact">
         <div class="container ">
-            <div class="row contact align-content-center flex-wrap">
-                <div class="col-xxl-4 justify-content-center d-flex">
+            <div class="row contact align-content-center flex-wrap ">
+                <!-- Instagram start -->
+                <div class="col-12 col-sm-4 justify-content-center d-flex contactbox1">
                     <div class="contact1">
                         <h4>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h4>
-                        <img src="/assets/images/instagramlogo.png" alt="">
+                        <a href="https://www.instagram.com/" target="_blank"><img
+                                src="/assets/images/index-page-images/instagramlogo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-xxl-4 justify-content-center d-flex">
+                <!-- Instagram end -->
+
+                <!-- Number start -->
+                <div class="col-12 col-sm-4 justify-content-center d-flex contactbox2">
                     <div class="contact2">
                         <h4>КОНТАКТНЫЕ ТЕЛЕФОНЫ</h4>
                         <p>+375 29 292-29-29 (VEL) <br>
                             +375 33 333-33-33 (МТС)</p>
                     </div>
                 </div>
-                <div class="col-xxl-4 justify-content-center d-flex">
+                <!-- Number end -->
+
+                <!-- Location start -->
+                <div class="col-12 col-sm-4 justify-content-center d-flex contactbox3">
                     <div class="contact3">
                         <h4>О НАС</h4>
                         <p>Индивидуальное изготовление EVA ковриков для вашего автомобиля </p>
                         <span> ваш город</span>
                     </div>
                 </div>
+                <!-- Location end -->
             </div>
         </div>
     </footer>
+    <!-- Footer end -->
 </body>
 
 </html>

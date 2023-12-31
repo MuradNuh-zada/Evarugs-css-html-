@@ -1,21 +1,17 @@
 @import "imports";
 
+// Index Page Start
 .top-header {
     background: linear-gradient(270deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
     height: 90px;
     color: $cw;
     i {
-        font-size: 30px;
         color: $cw;
         transition: all 0.4s ease-in;
         -webkit-transition: all 0.4s ease-in;
         -moz-transition: all 0.4s ease-in;
         -ms-transition: all 0.4s ease-in;
         -o-transition: all 0.4s ease-in;
-    }
-    p {
-        font-size: 15px;
-        padding: 0 3px 0 25px;
     }
 }
 .bottom-header {
@@ -26,52 +22,41 @@
         height: 59.971px;
     }
     h2 {
-        font-size: 36px;
         font-style: italic;
         font-weight: 900;
-        margin-left: 15px;
     }
     ul {
-        margin-right: 60px;
         li {
-            margin-left: 25px;
             font-size: 18px;
             font-weight: 300;
-            transition: all 0.4s ease-in;
-            -webkit-transition: all 0.4s ease-in;
-            -moz-transition: all 0.4s ease-in;
-            -ms-transition: all 0.4s ease-in;
-            -o-transition: all 0.4s ease-in;
             a {
                 color: #737373;
+                padding: 2px 10px;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+                transition: all 0.4s ease-in;
+                -webkit-transition: all 0.4s ease-in;
+                -moz-transition: all 0.4s ease-in;
+                -ms-transition: all 0.4s ease-in;
+                -o-transition: all 0.4s ease-in;
             }
         }
     }
 }
 #order {
-    background-image: url(/assets/images/block.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 800px;
-
     .order-desc {
-        margin-top: -7rem;
-        img {
-            width: 533px;
-            height: 100%;
-        }
         h1 {
-            font-size: 50px;
             font-weight: 900;
         }
         p {
-            font-size: 24px;
             font-weight: 300;
             margin: 15px 0;
         }
         button {
             color: $cw;
-            font-size: 20px;
             font-weight: 900;
             border: none;
             border-radius: 7px;
@@ -88,10 +73,9 @@
 }
 #eva {
     position: relative;
-    height: 800px;
+    margin-bottom: 2rem;
     h2 {
         text-align: center;
-        font-size: 50px;
         font-weight: 400;
         span {
             background: linear-gradient(180deg, #b90160 0%, #3d5bf5 100%);
@@ -107,8 +91,6 @@
         -ms-transition: all 0.4s ease-in;
         -o-transition: all 0.4s ease-in;
         cursor: pointer;
-        margin-top: 6rem;
-        width: 390px;
         background-color: #fff;
         box-shadow: 0px 0px 40px 0px rgba(184, 0, 95, 0.2);
         border-radius: 7px;
@@ -117,7 +99,6 @@
         -ms-border-radius: 7px;
         -o-border-radius: 7px;
         img {
-            width: 100%;
             object-fit: cover;
             border-radius: 7px 7px 0 0;
             transition: all 0.4s ease-in;
@@ -129,9 +110,7 @@
         .eva-card-desc {
             padding: 20px 65px 30px 20px;
             h3 {
-                font-size: 36px;
                 font-weight: 700;
-                margin-bottom: 15px;
                 transition: all 0.4s ease-in;
                 -webkit-transition: all 0.4s ease-in;
                 -moz-transition: all 0.4s ease-in;
@@ -140,7 +119,6 @@
             }
             p {
                 color: #767676;
-                font-size: 14px;
                 font-weight: 300;
             }
         }
@@ -148,7 +126,6 @@
     .back-img {
         position: absolute;
         z-index: -1;
-        top: 10rem;
     }
 }
 #client {
@@ -156,17 +133,8 @@
     .client-cards {
         height: 357px;
         overflow: hidden;
-        .client-card1,
-        .client-card3 {
-            opacity: 0.5;
-        }
-        .client-card1 {
-            margin: 0 3rem 0 -10.2rem;
-        }
-        .client-card3 {
-            margin: 0 -14.5rem 0 3rem;
-        }
         .client-card {
+            width: 536px;
             height: 187px;
             text-align: center;
             border-radius: 9px;
@@ -188,9 +156,8 @@
             }
             .comment {
                 p {
-                    font-size: 18px;
                     font-weight: 300;
-                    margin: 15px 0;
+                    margin: 12px 0;
                     padding: 0 47px;
                 }
                 .line-div {
@@ -216,9 +183,7 @@
     }
 }
 .contact {
-    background-image: url(/assets/images/footerimg.png);
     background-repeat: no-repeat;
-    height: 364px;
     margin-top: 2rem;
     h4 {
         font-size: 14px;
@@ -227,15 +192,51 @@
     img {
         width: 33px;
         height: 33px;
+        margin: 10px 0;
     }
     p,
     span {
         font-size: 14px;
         font-weight: 300;
         margin: 10px 0;
-        padding-right: 14rem;
-    }
-    img {
-        margin: 10px 0;
     }
 }
+// Index Page End
+
+// Form Page Start
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    .form-box {
+        box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+        border-radius: 15px;
+        input {
+            color: #989898;
+            border: 1px solid #a1a1a1;
+            font-weight: 300;
+        }
+        .form-name-email {
+            input {
+                border-radius: 9px;
+            }
+        }
+        .form-message {
+            input {
+                border-radius: 9px;
+            }
+        }
+        .form-btn {
+            input {
+                border: none;
+                border-radius: 9px;
+                background: linear-gradient(96deg, #d4145a -21.03%, #3d5bf5 103.56%);
+                color: #fff;
+                font-weight: 400;
+                cursor: pointer;
+            }
+        }
+    }
+}
+// Form Page End
