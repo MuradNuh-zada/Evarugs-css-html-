@@ -1,2 +1,2 @@
-# CSS-Task-24
-CSS Task 24
+# Evarugs Css & Html (responsive)
+Site:  https://cssevarugs.vercel.app/
